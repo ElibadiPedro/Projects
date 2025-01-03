@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portifólio - Elibadi Pedro</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#Sobre">Sobre</a></li>
+                    <li><a href="#Serviços">Serviços</a></li>
+                    <li><a href="#Portifolio">Portifólio</a></li>
+                    <li><a href="#Contactos">Contactos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="Sobre">
+            <h1>Bem-Vindo ao meu Portifólio!</h1>
+            <p>Sou Elibadi Pedro, especialista em filmagem, ediçaõ de vídeos, criação de banners, reparação e manutenção de Computadores.</p>
+        </section>
+
+        <section id="Serviços">
+            <h2>Meus Serviços</h2>
+            <p>Aqui estão alguns dos serviços que ofereço:</p>
+            <!-- Inserir os pacotes dos serviços aqui-->
+        </section>
+
+        <section id="Portifolio">
+            <h2>Meus Trabalhos</h2>
+            <!--Galeria de vídeos, banners e outros projectos-->
+        </section>
+
+        <section id="Contactos">
+            <h2>Contactos</h2>
+            <form action="processar_contacto.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <footer><p>&copy; 2025 Elibadi Pedro - Todos os DIreitos Reservados.</p></footer>
+    </body>
+</html>
